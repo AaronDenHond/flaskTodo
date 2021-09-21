@@ -1,6 +1,5 @@
 # Basic Todo App in Flask (Python).
 
-https://aarondenhond.github.io/flaskTodo/
 
 It has standard CRUD functionality and I choose to try out SQLite, as a dedicated backend wasn't needed for this project.
 I had also only worked with MySQL or writing to a local file before this, so it was nice seeing how easy SQLite is to setup
