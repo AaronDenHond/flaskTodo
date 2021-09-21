@@ -3,9 +3,13 @@
 <title>FlaskTask</title>
 {% endblock %}
  {% block body %}
+<h1>Flask TODOOOOS</h1>
+ {% if tasks|length < 1 %}
+<h4>There are currently no tasks. Make a todo below!</h4>
+{% else %}
 <div class="content">
   <table>
-    <h1>Flask TODOOOOS</h1>
+    
     <tr>
       <th>Todo</th>
       <th>Date added</th>
@@ -24,6 +28,8 @@
     </tr>
     {% endfor %}
   </table>
+
+  {% endif %}
 
   <form action="/" method="POST">
     <input type="text" name="taskcontent" id="taskcontent" />

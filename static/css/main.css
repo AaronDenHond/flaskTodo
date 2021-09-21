@@ -1,5 +1,16 @@
 body {
+  margin:auto;
+  width: 50%;
+  font-family: sans-serif;
+  text-align: center;
+}
 
-    margin: 0;
-    font-family: sans-serif;
+table {
+  text-align: center;
+  margin:auto;
+  width: 50%;
+}
+
+form {
+  margin-top: 20px;
 }
