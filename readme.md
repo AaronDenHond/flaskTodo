@@ -39,7 +39,7 @@ would run at import time. We need some conditions so we can choose when to run i
 
 Templates in Flask by default work with Jinja2 syntax. Comparable to other frameworks we've seen like symfony that use Twig.
 
-{{}} in Jinja2 returns what's in it as a string. {% %} is for loops etc.
+{{}} in Jinja2 returns what's in it as a string. 
 
 /// is a relative path, //// absolute in sqlite
 
